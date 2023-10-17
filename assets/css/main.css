@@ -3228,6 +3228,7 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
+		/* qx* Background image selection */
 		#wrapper > .bg {
 			position: absolute;
 			top: 0;
@@ -3235,7 +3236,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/newBg.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/galaxyBkgImage.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3332,8 +3333,10 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
+		/* qx* Name styling */
+
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #F4B400;
+			color: #ffffff;
 		}
 
 		#intro blockquote {
